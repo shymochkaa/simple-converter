@@ -1,0 +1,77 @@
+.relative {
+  width: 550px;
+  height: 550px;
+  background-color: #1F2937;
+}
+
+.child-one {
+  width: 550px;
+  height: 260px;
+  background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+.child-one p {
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.child-one .name {
+  font-size: 22px;
+  line-height: 24px;
+  padding-top: 54px;
+  color: white;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.child-one .your-value {
+  font-size: 98px;
+  margin: 0;
+  line-height: 38px;
+  padding-top: 54px;
+}
+
+.child-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 19px 0;
+}
+
+.margined {
+  margin: 19px 0;
+}
+
+.conversion-name p {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 13px 0;
+}
+
+.two-values p {
+  color: #D2D2D2;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+}
+
+.my-input-field {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=main.css.map */

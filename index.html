@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric/Imperial unit conversion</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="relative">
+
+        <div class="child-one">
+            <p class="name">Metric/Imperial unit conversion</p>
+            <form  onsubmit="convertNumber(); return false">
+                <label for="myvalue" class="name">Enter a number to be converted:</label><br>
+                <input type="number" min="0" id="myvalue" name="myvalue" class="my-input-field" required>
+                <input type="submit" value="Convert">
+            </form>
+            <!-- <p class="your-value" id="main-value">20</p> -->
+        </div>
+
+        <div class="child-two">
+
+            <div class="conversion-results-length margined">
+
+                <div class="conversion-name">
+                    <p>Length (Meter/Feet)</p>
+                </div>
+             
+                <div class="meters order-one two-values">
+                        <p id="mtof">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+                </div>
+                    
+            </div>
+
+            <div class="conversion-results-volume margined">
+                <div class="conversion-name">
+                    <p>Volume (Liters/Gallons)</p>
+                </div>
+               
+                <div class="meters two-values">
+                        <p id="ltog">20 liters = 5.284 gallons | 20 gallons = 75.708 liters</p>
+                </div>
+
+                   
+            </div>
+
+            <div class="conversion-results-mass margined">
+                <div class="conversion-name">
+                    <p>Mass (Kilograms/Pounds)</p>
+                </div>
+                
+                <div class="meters two-values">
+                        <p id="ktop">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>   
+
+</body>
+</html>
